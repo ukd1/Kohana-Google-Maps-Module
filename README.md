@@ -5,6 +5,7 @@ The Google Map module has NO dependency to other modules!
 
 ## Features
 
+* Updated to support Kohana 3.2 by UKD1
 * Display a Google-Map by just echo'ing an instance of the "Gmap" class
 * Setting several map-types (road, satellite, hybrid and terrain)
 * Setting sensor-parameter (for mobile devices)

@@ -75,7 +75,7 @@ class Gmap_Core
 	{
 		$available_keys = $this->_options;
 
-		$this->_config = Kohana::config('gmap');
+		$this->_config = Kohana::$config->load('gmap');
 		$this->_options = array();
 
 		// Check if each available key is set. Using Arr::extract filled everything up with NULL.
